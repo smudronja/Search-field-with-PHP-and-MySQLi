@@ -1,0 +1,7 @@
+CREATE TABLE article (
+	a_id int(11) NOT null PRIMARY KEY AUTO_INCREMENT,
+    	a_title varchar(256) NOT null,
+    	a_text text NOT null,
+    	a_author varchar(256) NOT null,
+    	a_date datetime NOT null
+);
